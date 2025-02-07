@@ -1,0 +1,51 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <model name="distance_sensor">
+    <static>false</static>
+    <link name="distance_sensor_link">
+      <pose>0 0 0 0 0 0</pose>
+      <sensor name="distance_sensor" type="ray">
+        <pose>0 0 0 0 0 0</pose>
+        <update_rate>10</update_rate>
+        <ray>
+          <scan>
+            <horizontal>
+              <samples>1</samples>
+              <resolution>1</resolution>
+              <min_angle>0</min_angle>
+              <max_angle>0</max_angle>
+            </horizontal>
+          </scan>
+          <range>
+            <min>0.05</min>  <!-- 최소 측정 가능 거리 -->
+            <max>5.0</max>   <!-- 최대 측정 가능 거리 -->
+            <resolution>0.01</resolution>
+          </range>
+        </ray>
+
+        <!-- ROS 2 Gazebo 플러그인 추가 -->
+        <plugin name="left_distance_sensor_plugin" filename="libgazebo_ros_ray_sensor.so">
+          <ros>
+            <namespace>distance_sensor_left</namespace>
+            <remapping>scan:=left_distance_sensor/scan</remapping>
+          </ros>
+          <output_type>sensor_msgs/LaserScan</output_type>
+          <frameName>left_distance_sensor_link</frameName>
+          <node_name>left_distance_sensor_node</node_name>  <!-- ✅ 노드 이름 변경 -->
+        </plugin>
+
+        <!-- <plugin name="right_distance_sensor_plugin" filename="libgazebo_ros_ray_sensor.so">
+          <ros>
+            <namespace>distance_sensor_right</namespace>
+            <remapping>scan:=right_distance_sensor/scan</remapping>
+          </ros>
+          <output_type>sensor_msgs/LaserScan</output_type>
+          <frameName>right_distance_sensor_link</frameName>
+          <node_name>right_distance_sensor_node</node_name>
+        </plugin> -->
+
+
+      </sensor>
+    </link>
+  </model>
+</sdf>

@@ -1,0 +1,35 @@
+[1.243s] Invoking command in '/home/jetson2/ws_sensor_combined/build/offboard': CMAKE_PREFIX_PATH=/home/jetson2/ws_sensor_combined/install/px4_msgs:/home/jetson2/ws_sensor_combined/install/px4_ros_com LD_LIBRARY_PATH=/home/jetson2/ws_sensor_combined/install/px4_msgs/lib:/home/jetson2/ws_sensor_combined/install/px4_ros_com/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/jetson2/ws_sensor_combined/build/offboard/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson2/ws_sensor_combined/install/offboard/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/jetson2/ws_sensor_combined/build/offboard/build
+[1.776s] running develop
+[2.122s] Removing /home/jetson2/ws_sensor_combined/install/offboard/lib/python3.10/site-packages/offboard.egg-link (link to .)
+[2.186s] Invoked command in '/home/jetson2/ws_sensor_combined/build/offboard' returned '0': CMAKE_PREFIX_PATH=/home/jetson2/ws_sensor_combined/install/px4_msgs:/home/jetson2/ws_sensor_combined/install/px4_ros_com LD_LIBRARY_PATH=/home/jetson2/ws_sensor_combined/install/px4_msgs/lib:/home/jetson2/ws_sensor_combined/install/px4_ros_com/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/jetson2/ws_sensor_combined/build/offboard/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson2/ws_sensor_combined/install/offboard/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/jetson2/ws_sensor_combined/build/offboard/build
+[2.190s] Invoking command in '/home/jetson2/ws_sensor_combined/src/offboard': CMAKE_PREFIX_PATH=/home/jetson2/ws_sensor_combined/install/px4_msgs:/home/jetson2/ws_sensor_combined/install/px4_ros_com LD_LIBRARY_PATH=/home/jetson2/ws_sensor_combined/install/px4_msgs/lib:/home/jetson2/ws_sensor_combined/install/px4_ros_com/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/jetson2/ws_sensor_combined/build/offboard/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson2/ws_sensor_combined/install/offboard/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/offboard build --build-base /home/jetson2/ws_sensor_combined/build/offboard/build install --record /home/jetson2/ws_sensor_combined/build/offboard/install.log --single-version-externally-managed install_data --force
+[2.680s] running egg_info
+[2.681s] writing ../../build/offboard/offboard.egg-info/PKG-INFO
+[2.681s] writing dependency_links to ../../build/offboard/offboard.egg-info/dependency_links.txt
+[2.682s] writing entry points to ../../build/offboard/offboard.egg-info/entry_points.txt
+[2.682s] writing requirements to ../../build/offboard/offboard.egg-info/requires.txt
+[2.682s] writing top-level names to ../../build/offboard/offboard.egg-info/top_level.txt
+[2.686s] reading manifest file '../../build/offboard/offboard.egg-info/SOURCES.txt'
+[2.687s] writing manifest file '../../build/offboard/offboard.egg-info/SOURCES.txt'
+[2.687s] running build
+[2.688s] running build_py
+[2.688s] copying offboard/__init__.py -> /home/jetson2/ws_sensor_combined/build/offboard/build/lib/offboard
+[2.688s] copying offboard/offboard_control.py -> /home/jetson2/ws_sensor_combined/build/offboard/build/lib/offboard
+[2.691s] running install
+[2.691s] running install_lib
+[2.693s] creating /home/jetson2/ws_sensor_combined/install/offboard/lib/python3.10/site-packages/offboard
+[2.693s] copying /home/jetson2/ws_sensor_combined/build/offboard/build/lib/offboard/__init__.py -> /home/jetson2/ws_sensor_combined/install/offboard/lib/python3.10/site-packages/offboard
+[2.693s] copying /home/jetson2/ws_sensor_combined/build/offboard/build/lib/offboard/offboard_control.py -> /home/jetson2/ws_sensor_combined/install/offboard/lib/python3.10/site-packages/offboard
+[2.693s] copying /home/jetson2/ws_sensor_combined/build/offboard/build/lib/offboard/offboard_node.py -> /home/jetson2/ws_sensor_combined/install/offboard/lib/python3.10/site-packages/offboard
+[2.695s] byte-compiling /home/jetson2/ws_sensor_combined/install/offboard/lib/python3.10/site-packages/offboard/__init__.py to __init__.cpython-310.pyc
+[2.695s] byte-compiling /home/jetson2/ws_sensor_combined/install/offboard/lib/python3.10/site-packages/offboard/offboard_control.py to offboard_control.cpython-310.pyc
+[2.696s] byte-compiling /home/jetson2/ws_sensor_combined/install/offboard/lib/python3.10/site-packages/offboard/offboard_node.py to offboard_node.cpython-310.pyc
+[2.698s] running install_data
+[2.698s] copying resource/offboard -> /home/jetson2/ws_sensor_combined/install/offboard/share/ament_index/resource_index/packages
+[2.699s] copying package.xml -> /home/jetson2/ws_sensor_combined/install/offboard/share/offboard
+[2.699s] running install_egg_info
+[2.702s] Copying ../../build/offboard/offboard.egg-info to /home/jetson2/ws_sensor_combined/install/offboard/lib/python3.10/site-packages/offboard-0.0.0-py3.10.egg-info
+[2.705s] running install_scripts
+[2.743s] Installing offboard_control script to /home/jetson2/ws_sensor_combined/install/offboard/lib/offboard
+[2.744s] writing list of installed files to '/home/jetson2/ws_sensor_combined/build/offboard/install.log'
+[2.800s] Invoked command in '/home/jetson2/ws_sensor_combined/src/offboard' returned '0': CMAKE_PREFIX_PATH=/home/jetson2/ws_sensor_combined/install/px4_msgs:/home/jetson2/ws_sensor_combined/install/px4_ros_com LD_LIBRARY_PATH=/home/jetson2/ws_sensor_combined/install/px4_msgs/lib:/home/jetson2/ws_sensor_combined/install/px4_ros_com/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/jetson2/ws_sensor_combined/build/offboard/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson2/ws_sensor_combined/install/offboard/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/offboard build --build-base /home/jetson2/ws_sensor_combined/build/offboard/build install --record /home/jetson2/ws_sensor_combined/build/offboard/install.log --single-version-externally-managed install_data --force

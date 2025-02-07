@@ -1,0 +1,3 @@
+[console_scripts]
+offboard_mode = offboard.offboard_mode:main
+

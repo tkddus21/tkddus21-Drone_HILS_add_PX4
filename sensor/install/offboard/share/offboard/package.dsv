@@ -1,0 +1,9 @@
+source;share/offboard/hook/pythonpath.ps1
+source;share/offboard/hook/pythonpath.dsv
+source;share/offboard/hook/pythonpath.sh
+source;share/offboard/hook/ament_prefix_path.ps1
+source;share/offboard/hook/ament_prefix_path.dsv
+source;share/offboard/hook/ament_prefix_path.sh
+source;../../build/offboard/share/offboard/hook/pythonpath_develop.ps1
+source;../../build/offboard/share/offboard/hook/pythonpath_develop.dsv
+source;../../build/offboard/share/offboard/hook/pythonpath_develop.sh

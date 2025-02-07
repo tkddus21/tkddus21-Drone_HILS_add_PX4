@@ -1,0 +1,387 @@
+[0.225s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.225s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffff864fe6b0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff864fe1a0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff864fe1a0>>, mixin_verb=('build',))
+[0.575s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.575s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.575s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.575s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.575s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.576s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.576s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/jetson2/ws_sensor_combined'
+[0.576s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.576s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.576s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.576s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.576s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.601s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.601s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.601s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.601s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.601s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.601s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.601s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.601s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.601s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.602s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.602s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.602s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.602s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.602s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.602s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[0.602s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[0.602s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore_ament_install'
+[0.602s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['colcon_pkg']
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'colcon_pkg'
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['colcon_meta']
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'colcon_meta'
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ros']
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ros'
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['cmake', 'python']
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'cmake'
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'python'
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['python_setup_py']
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'python_setup_py'
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles) by extensions ['ignore', 'ignore_ament_install']
+[0.604s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles) by extension 'ignore'
+[0.604s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles) by extension 'ignore_ament_install'
+[0.604s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles) by extensions ['colcon_pkg']
+[0.604s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles) by extension 'colcon_pkg'
+[0.604s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles) by extensions ['colcon_meta']
+[0.604s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles) by extension 'colcon_meta'
+[0.604s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles) by extensions ['ros']
+[0.604s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles) by extension 'ros'
+[0.604s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles) by extensions ['cmake', 'python']
+[0.604s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles) by extension 'cmake'
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles) by extension 'python'
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles) by extensions ['python_setup_py']
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles) by extension 'python_setup_py'
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/3.22.1) by extensions ['ignore', 'ignore_ament_install']
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/3.22.1) by extension 'ignore'
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/3.22.1) by extension 'ignore_ament_install'
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/3.22.1) by extensions ['colcon_pkg']
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/3.22.1) by extension 'colcon_pkg'
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/3.22.1) by extensions ['colcon_meta']
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/3.22.1) by extension 'colcon_meta'
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/3.22.1) by extensions ['ros']
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/3.22.1) by extension 'ros'
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/3.22.1) by extensions ['cmake', 'python']
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/3.22.1) by extension 'cmake'
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/3.22.1) by extension 'python'
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/3.22.1) by extensions ['python_setup_py']
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/3.22.1) by extension 'python_setup_py'
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/3.22.1/CompilerIdC) by extensions ['ignore', 'ignore_ament_install']
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/3.22.1/CompilerIdC) by extension 'ignore'
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/3.22.1/CompilerIdC) by extension 'ignore_ament_install'
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/3.22.1/CompilerIdC) by extensions ['colcon_pkg']
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/3.22.1/CompilerIdC) by extension 'colcon_pkg'
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/3.22.1/CompilerIdC) by extensions ['colcon_meta']
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/3.22.1/CompilerIdC) by extension 'colcon_meta'
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/3.22.1/CompilerIdC) by extensions ['ros']
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/3.22.1/CompilerIdC) by extension 'ros'
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/3.22.1/CompilerIdC) by extensions ['cmake', 'python']
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/3.22.1/CompilerIdC) by extension 'cmake'
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/3.22.1/CompilerIdC) by extension 'python'
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/3.22.1/CompilerIdC) by extensions ['python_setup_py']
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/3.22.1/CompilerIdC) by extension 'python_setup_py'
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/3.22.1/CompilerIdC/tmp) by extensions ['ignore', 'ignore_ament_install']
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/3.22.1/CompilerIdC/tmp) by extension 'ignore'
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/3.22.1/CompilerIdC/tmp) by extension 'ignore_ament_install'
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/3.22.1/CompilerIdC/tmp) by extensions ['colcon_pkg']
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/3.22.1/CompilerIdC/tmp) by extension 'colcon_pkg'
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/3.22.1/CompilerIdC/tmp) by extensions ['colcon_meta']
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/3.22.1/CompilerIdC/tmp) by extension 'colcon_meta'
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/3.22.1/CompilerIdC/tmp) by extensions ['ros']
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/3.22.1/CompilerIdC/tmp) by extension 'ros'
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/3.22.1/CompilerIdC/tmp) by extensions ['cmake', 'python']
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/3.22.1/CompilerIdC/tmp) by extension 'cmake'
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/3.22.1/CompilerIdC/tmp) by extension 'python'
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/3.22.1/CompilerIdC/tmp) by extensions ['python_setup_py']
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/3.22.1/CompilerIdC/tmp) by extension 'python_setup_py'
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/3.22.1/CompilerIdCXX) by extensions ['ignore', 'ignore_ament_install']
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/3.22.1/CompilerIdCXX) by extension 'ignore'
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/3.22.1/CompilerIdCXX) by extension 'ignore_ament_install'
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/3.22.1/CompilerIdCXX) by extensions ['colcon_pkg']
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/3.22.1/CompilerIdCXX) by extension 'colcon_pkg'
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/3.22.1/CompilerIdCXX) by extensions ['colcon_meta']
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/3.22.1/CompilerIdCXX) by extension 'colcon_meta'
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/3.22.1/CompilerIdCXX) by extensions ['ros']
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/3.22.1/CompilerIdCXX) by extension 'ros'
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/3.22.1/CompilerIdCXX) by extensions ['cmake', 'python']
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/3.22.1/CompilerIdCXX) by extension 'cmake'
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/3.22.1/CompilerIdCXX) by extension 'python'
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/3.22.1/CompilerIdCXX) by extensions ['python_setup_py']
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/3.22.1/CompilerIdCXX) by extension 'python_setup_py'
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/3.22.1/CompilerIdCXX/tmp) by extensions ['ignore', 'ignore_ament_install']
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/3.22.1/CompilerIdCXX/tmp) by extension 'ignore'
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/3.22.1/CompilerIdCXX/tmp) by extension 'ignore_ament_install'
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/3.22.1/CompilerIdCXX/tmp) by extensions ['colcon_pkg']
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/3.22.1/CompilerIdCXX/tmp) by extension 'colcon_pkg'
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/3.22.1/CompilerIdCXX/tmp) by extensions ['colcon_meta']
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/3.22.1/CompilerIdCXX/tmp) by extension 'colcon_meta'
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/3.22.1/CompilerIdCXX/tmp) by extensions ['ros']
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/3.22.1/CompilerIdCXX/tmp) by extension 'ros'
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/3.22.1/CompilerIdCXX/tmp) by extensions ['cmake', 'python']
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/3.22.1/CompilerIdCXX/tmp) by extension 'cmake'
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/3.22.1/CompilerIdCXX/tmp) by extension 'python'
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/3.22.1/CompilerIdCXX/tmp) by extensions ['python_setup_py']
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/3.22.1/CompilerIdCXX/tmp) by extension 'python_setup_py'
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/CMakeTmp) by extensions ['ignore', 'ignore_ament_install']
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/CMakeTmp) by extension 'ignore'
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/CMakeTmp) by extension 'ignore_ament_install'
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/CMakeTmp) by extensions ['colcon_pkg']
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/CMakeTmp) by extension 'colcon_pkg'
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/CMakeTmp) by extensions ['colcon_meta']
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/CMakeTmp) by extension 'colcon_meta'
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/CMakeTmp) by extensions ['ros']
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/CMakeTmp) by extension 'ros'
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/CMakeTmp) by extensions ['cmake', 'python']
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/CMakeTmp) by extension 'cmake'
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/CMakeTmp) by extension 'python'
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/CMakeTmp) by extensions ['python_setup_py']
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/CMakeTmp) by extension 'python_setup_py'
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(src/offboard) by extensions ['ignore', 'ignore_ament_install']
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(src/offboard) by extension 'ignore'
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(src/offboard) by extension 'ignore_ament_install'
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(src/offboard) by extensions ['colcon_pkg']
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(src/offboard) by extension 'colcon_pkg'
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(src/offboard) by extensions ['colcon_meta']
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(src/offboard) by extension 'colcon_meta'
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(src/offboard) by extensions ['ros']
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(src/offboard) by extension 'ros'
+[0.619s] DEBUG:colcon.colcon_core.package_identification:Package 'src/offboard' with type 'ros.ament_python' and name 'offboard'
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'ignore'
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'ignore_ament_install'
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extensions ['colcon_pkg']
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'colcon_pkg'
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extensions ['colcon_meta']
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'colcon_meta'
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extensions ['ros']
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'ros'
+[0.622s] DEBUG:colcon.colcon_core.package_identification:Package 'src/px4_msgs' with type 'ros.ament_cmake' and name 'px4_msgs'
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extensions ['ignore', 'ignore_ament_install']
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extension 'ignore'
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extension 'ignore_ament_install'
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extensions ['colcon_pkg']
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extension 'colcon_pkg'
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extensions ['colcon_meta']
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extension 'colcon_meta'
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extensions ['ros']
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extension 'ros'
+[0.625s] DEBUG:colcon.colcon_core.package_identification:Package 'src/px4_ros_com' with type 'ros.ament_cmake' and name 'px4_ros_com'
+[0.625s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.626s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.626s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.626s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.626s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.689s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.689s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.693s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/jetson2/ws_sensor_combined/install
+[0.695s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 271 installed packages in /opt/ros/humble
+[0.698s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.772s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_args' from command line to 'None'
+[0.772s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_target' from command line to 'None'
+[0.773s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.773s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.773s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.773s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.773s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.773s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.773s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.773s] DEBUG:colcon.colcon_core.verb:Building package 'px4_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jetson2/ws_sensor_combined/build/px4_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jetson2/ws_sensor_combined/install/px4_msgs', 'merge_install': False, 'path': '/home/jetson2/ws_sensor_combined/src/px4_msgs', 'symlink_install': True, 'test_result_base': None}
+[0.774s] Level 5:colcon.colcon_core.verb:set package 'offboard' build argument 'cmake_args' from command line to 'None'
+[0.774s] Level 5:colcon.colcon_core.verb:set package 'offboard' build argument 'cmake_target' from command line to 'None'
+[0.774s] Level 5:colcon.colcon_core.verb:set package 'offboard' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.774s] Level 5:colcon.colcon_core.verb:set package 'offboard' build argument 'cmake_clean_cache' from command line to 'False'
+[0.774s] Level 5:colcon.colcon_core.verb:set package 'offboard' build argument 'cmake_clean_first' from command line to 'False'
+[0.774s] Level 5:colcon.colcon_core.verb:set package 'offboard' build argument 'cmake_force_configure' from command line to 'False'
+[0.774s] Level 5:colcon.colcon_core.verb:set package 'offboard' build argument 'ament_cmake_args' from command line to 'None'
+[0.774s] Level 5:colcon.colcon_core.verb:set package 'offboard' build argument 'catkin_cmake_args' from command line to 'None'
+[0.774s] Level 5:colcon.colcon_core.verb:set package 'offboard' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.774s] DEBUG:colcon.colcon_core.verb:Building package 'offboard' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jetson2/ws_sensor_combined/build/offboard', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jetson2/ws_sensor_combined/install/offboard', 'merge_install': False, 'path': '/home/jetson2/ws_sensor_combined/src/offboard', 'symlink_install': True, 'test_result_base': None}
+[0.775s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_args' from command line to 'None'
+[0.775s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_target' from command line to 'None'
+[0.775s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.775s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_clean_cache' from command line to 'False'
+[0.775s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_clean_first' from command line to 'False'
+[0.775s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_force_configure' from command line to 'False'
+[0.775s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'ament_cmake_args' from command line to 'None'
+[0.775s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'catkin_cmake_args' from command line to 'None'
+[0.775s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.775s] DEBUG:colcon.colcon_core.verb:Building package 'px4_ros_com' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jetson2/ws_sensor_combined/build/px4_ros_com', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jetson2/ws_sensor_combined/install/px4_ros_com', 'merge_install': False, 'path': '/home/jetson2/ws_sensor_combined/src/px4_ros_com', 'symlink_install': True, 'test_result_base': None}
+[0.776s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.777s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.778s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jetson2/ws_sensor_combined/src/px4_msgs' with build type 'ament_cmake'
+[0.778s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jetson2/ws_sensor_combined/src/px4_msgs'
+[0.783s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.783s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.783s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.800s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jetson2/ws_sensor_combined/build/px4_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson2/ws_sensor_combined/install/offboard:/opt/ros/humble /usr/bin/cmake --build /home/jetson2/ws_sensor_combined/build/px4_msgs -- -j8 -l8
+[2.330s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jetson2/ws_sensor_combined/build/px4_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson2/ws_sensor_combined/install/offboard:/opt/ros/humble /usr/bin/cmake --build /home/jetson2/ws_sensor_combined/build/px4_msgs -- -j8 -l8
+[2.351s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jetson2/ws_sensor_combined/build/px4_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson2/ws_sensor_combined/install/offboard:/opt/ros/humble /usr/bin/cmake --install /home/jetson2/ws_sensor_combined/build/px4_msgs
+[3.370s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(px4_msgs)
+[3.371s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jetson2/ws_sensor_combined/build/px4_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson2/ws_sensor_combined/install/offboard:/opt/ros/humble /usr/bin/cmake --install /home/jetson2/ws_sensor_combined/build/px4_msgs
+[3.379s] Level 1:colcon.colcon_core.environment:checking '/home/jetson2/ws_sensor_combined/install/px4_msgs' for CMake module files
+[3.382s] Level 1:colcon.colcon_core.environment:checking '/home/jetson2/ws_sensor_combined/install/px4_msgs' for CMake config files
+[3.403s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'cmake_prefix_path')
+[3.404s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson2/ws_sensor_combined/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.ps1'
+[3.406s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson2/ws_sensor_combined/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.dsv'
+[3.408s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson2/ws_sensor_combined/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.sh'
+[3.411s] Level 1:colcon.colcon_core.environment:checking '/home/jetson2/ws_sensor_combined/install/px4_msgs/lib'
+[3.411s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'ld_library_path_lib')
+[3.412s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson2/ws_sensor_combined/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.ps1'
+[3.414s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson2/ws_sensor_combined/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.dsv'
+[3.415s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson2/ws_sensor_combined/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.sh'
+[3.416s] Level 1:colcon.colcon_core.environment:checking '/home/jetson2/ws_sensor_combined/install/px4_msgs/bin'
+[3.416s] Level 1:colcon.colcon_core.environment:checking '/home/jetson2/ws_sensor_combined/install/px4_msgs/lib/pkgconfig/px4_msgs.pc'
+[3.417s] Level 1:colcon.colcon_core.environment:checking '/home/jetson2/ws_sensor_combined/install/px4_msgs/lib/python3.10/site-packages'
+[3.418s] Level 1:colcon.colcon_core.environment:checking '/home/jetson2/ws_sensor_combined/install/px4_msgs/bin'
+[3.419s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson2/ws_sensor_combined/install/px4_msgs/share/px4_msgs/package.ps1'
+[3.422s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jetson2/ws_sensor_combined/install/px4_msgs/share/px4_msgs/package.dsv'
+[3.424s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson2/ws_sensor_combined/install/px4_msgs/share/px4_msgs/package.sh'
+[3.426s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson2/ws_sensor_combined/install/px4_msgs/share/px4_msgs/package.bash'
+[3.428s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson2/ws_sensor_combined/install/px4_msgs/share/px4_msgs/package.zsh'
+[3.430s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jetson2/ws_sensor_combined/install/px4_msgs/share/colcon-core/packages/px4_msgs)
+[3.431s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(px4_msgs)
+[3.432s] Level 1:colcon.colcon_core.environment:checking '/home/jetson2/ws_sensor_combined/install/px4_msgs' for CMake module files
+[3.433s] Level 1:colcon.colcon_core.environment:checking '/home/jetson2/ws_sensor_combined/install/px4_msgs' for CMake config files
+[3.447s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'cmake_prefix_path')
+[3.447s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson2/ws_sensor_combined/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.ps1'
+[3.448s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson2/ws_sensor_combined/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.dsv'
+[3.449s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson2/ws_sensor_combined/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.sh'
+[3.450s] Level 1:colcon.colcon_core.environment:checking '/home/jetson2/ws_sensor_combined/install/px4_msgs/lib'
+[3.450s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'ld_library_path_lib')
+[3.451s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson2/ws_sensor_combined/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.ps1'
+[3.452s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson2/ws_sensor_combined/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.dsv'
+[3.453s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson2/ws_sensor_combined/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.sh'
+[3.454s] Level 1:colcon.colcon_core.environment:checking '/home/jetson2/ws_sensor_combined/install/px4_msgs/bin'
+[3.454s] Level 1:colcon.colcon_core.environment:checking '/home/jetson2/ws_sensor_combined/install/px4_msgs/lib/pkgconfig/px4_msgs.pc'
+[3.454s] Level 1:colcon.colcon_core.environment:checking '/home/jetson2/ws_sensor_combined/install/px4_msgs/lib/python3.10/site-packages'
+[3.455s] Level 1:colcon.colcon_core.environment:checking '/home/jetson2/ws_sensor_combined/install/px4_msgs/bin'
+[3.455s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson2/ws_sensor_combined/install/px4_msgs/share/px4_msgs/package.ps1'
+[3.457s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jetson2/ws_sensor_combined/install/px4_msgs/share/px4_msgs/package.dsv'
+[3.458s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson2/ws_sensor_combined/install/px4_msgs/share/px4_msgs/package.sh'
+[3.459s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson2/ws_sensor_combined/install/px4_msgs/share/px4_msgs/package.bash'
+[3.459s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson2/ws_sensor_combined/install/px4_msgs/share/px4_msgs/package.zsh'
+[3.460s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jetson2/ws_sensor_combined/install/px4_msgs/share/colcon-core/packages/px4_msgs)
+[3.461s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/jetson2/ws_sensor_combined/src/offboard' with build type 'ament_python'
+[3.461s] Level 1:colcon.colcon_core.shell:create_environment_hook('offboard', 'ament_prefix_path')
+[3.462s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson2/ws_sensor_combined/install/offboard/share/offboard/hook/ament_prefix_path.ps1'
+[3.463s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson2/ws_sensor_combined/install/offboard/share/offboard/hook/ament_prefix_path.dsv'
+[3.464s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson2/ws_sensor_combined/install/offboard/share/offboard/hook/ament_prefix_path.sh'
+[3.465s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.465s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.473s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jetson2/ws_sensor_combined/src/px4_ros_com' with build type 'ament_cmake'
+[3.473s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jetson2/ws_sensor_combined/src/px4_ros_com'
+[3.474s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.474s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.012s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/jetson2/ws_sensor_combined/src/offboard'
+[4.013s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.013s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.032s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jetson2/ws_sensor_combined/build/px4_ros_com': CMAKE_PREFIX_PATH=/home/jetson2/ws_sensor_combined/install/px4_msgs:/home/jetson2/ws_sensor_combined/install/px4_ros_com:/home/jetson2/ws_sensor_combined/install/offboard:/opt/ros/humble LD_LIBRARY_PATH=/home/jetson2/ws_sensor_combined/install/px4_msgs/lib:/home/jetson2/ws_sensor_combined/install/px4_ros_com/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/jetson2/ws_sensor_combined/build/px4_ros_com -- -j8 -l8
+[4.737s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jetson2/ws_sensor_combined/build/px4_ros_com' returned '0': CMAKE_PREFIX_PATH=/home/jetson2/ws_sensor_combined/install/px4_msgs:/home/jetson2/ws_sensor_combined/install/px4_ros_com:/home/jetson2/ws_sensor_combined/install/offboard:/opt/ros/humble LD_LIBRARY_PATH=/home/jetson2/ws_sensor_combined/install/px4_msgs/lib:/home/jetson2/ws_sensor_combined/install/px4_ros_com/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/jetson2/ws_sensor_combined/build/px4_ros_com -- -j8 -l8
+[4.740s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jetson2/ws_sensor_combined/build/px4_ros_com': CMAKE_PREFIX_PATH=/home/jetson2/ws_sensor_combined/install/px4_msgs:/home/jetson2/ws_sensor_combined/install/px4_ros_com:/home/jetson2/ws_sensor_combined/install/offboard:/opt/ros/humble LD_LIBRARY_PATH=/home/jetson2/ws_sensor_combined/install/px4_msgs/lib:/home/jetson2/ws_sensor_combined/install/px4_ros_com/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/jetson2/ws_sensor_combined/build/px4_ros_com
+[4.780s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jetson2/ws_sensor_combined/build/offboard': CMAKE_PREFIX_PATH=/home/jetson2/ws_sensor_combined/install/px4_msgs:/home/jetson2/ws_sensor_combined/install/px4_ros_com LD_LIBRARY_PATH=/home/jetson2/ws_sensor_combined/install/px4_msgs/lib:/home/jetson2/ws_sensor_combined/install/px4_ros_com/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/jetson2/ws_sensor_combined/build/offboard/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson2/ws_sensor_combined/install/offboard/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jetson2/ws_sensor_combined/build/offboard/build --no-deps symlink_data
+[4.866s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(px4_ros_com)
+[4.867s] Level 1:colcon.colcon_core.environment:checking '/home/jetson2/ws_sensor_combined/install/px4_ros_com' for CMake module files
+[4.868s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jetson2/ws_sensor_combined/build/px4_ros_com' returned '0': CMAKE_PREFIX_PATH=/home/jetson2/ws_sensor_combined/install/px4_msgs:/home/jetson2/ws_sensor_combined/install/px4_ros_com:/home/jetson2/ws_sensor_combined/install/offboard:/opt/ros/humble LD_LIBRARY_PATH=/home/jetson2/ws_sensor_combined/install/px4_msgs/lib:/home/jetson2/ws_sensor_combined/install/px4_ros_com/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/jetson2/ws_sensor_combined/build/px4_ros_com
+[4.870s] Level 1:colcon.colcon_core.environment:checking '/home/jetson2/ws_sensor_combined/install/px4_ros_com' for CMake config files
+[4.871s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_ros_com', 'cmake_prefix_path')
+[4.872s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson2/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/hook/cmake_prefix_path.ps1'
+[4.873s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson2/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/hook/cmake_prefix_path.dsv'
+[4.874s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson2/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/hook/cmake_prefix_path.sh'
+[4.875s] Level 1:colcon.colcon_core.environment:checking '/home/jetson2/ws_sensor_combined/install/px4_ros_com/lib'
+[4.875s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_ros_com', 'ld_library_path_lib')
+[4.876s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson2/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/hook/ld_library_path_lib.ps1'
+[4.877s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson2/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/hook/ld_library_path_lib.dsv'
+[4.878s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson2/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/hook/ld_library_path_lib.sh'
+[4.879s] Level 1:colcon.colcon_core.environment:checking '/home/jetson2/ws_sensor_combined/install/px4_ros_com/bin'
+[4.879s] Level 1:colcon.colcon_core.environment:checking '/home/jetson2/ws_sensor_combined/install/px4_ros_com/lib/pkgconfig/px4_ros_com.pc'
+[4.880s] Level 1:colcon.colcon_core.environment:checking '/home/jetson2/ws_sensor_combined/install/px4_ros_com/lib/python3.10/site-packages'
+[4.880s] Level 1:colcon.colcon_core.environment:checking '/home/jetson2/ws_sensor_combined/install/px4_ros_com/bin'
+[4.881s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson2/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/package.ps1'
+[4.882s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jetson2/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/package.dsv'
+[4.883s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson2/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/package.sh'
+[4.884s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson2/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/package.bash'
+[4.885s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson2/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/package.zsh'
+[4.886s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jetson2/ws_sensor_combined/install/px4_ros_com/share/colcon-core/packages/px4_ros_com)
+[4.887s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(px4_ros_com)
+[4.888s] Level 1:colcon.colcon_core.environment:checking '/home/jetson2/ws_sensor_combined/install/px4_ros_com' for CMake module files
+[4.889s] Level 1:colcon.colcon_core.environment:checking '/home/jetson2/ws_sensor_combined/install/px4_ros_com' for CMake config files
+[4.890s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_ros_com', 'cmake_prefix_path')
+[4.891s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson2/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/hook/cmake_prefix_path.ps1'
+[4.892s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson2/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/hook/cmake_prefix_path.dsv'
+[4.892s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson2/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/hook/cmake_prefix_path.sh'
+[4.894s] Level 1:colcon.colcon_core.environment:checking '/home/jetson2/ws_sensor_combined/install/px4_ros_com/lib'
+[4.894s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_ros_com', 'ld_library_path_lib')
+[4.894s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson2/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/hook/ld_library_path_lib.ps1'
+[4.895s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson2/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/hook/ld_library_path_lib.dsv'
+[4.896s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson2/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/hook/ld_library_path_lib.sh'
+[4.897s] Level 1:colcon.colcon_core.environment:checking '/home/jetson2/ws_sensor_combined/install/px4_ros_com/bin'
+[4.897s] Level 1:colcon.colcon_core.environment:checking '/home/jetson2/ws_sensor_combined/install/px4_ros_com/lib/pkgconfig/px4_ros_com.pc'
+[4.898s] Level 1:colcon.colcon_core.environment:checking '/home/jetson2/ws_sensor_combined/install/px4_ros_com/lib/python3.10/site-packages'
+[4.898s] Level 1:colcon.colcon_core.environment:checking '/home/jetson2/ws_sensor_combined/install/px4_ros_com/bin'
+[4.899s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson2/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/package.ps1'
+[4.901s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jetson2/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/package.dsv'
+[4.902s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson2/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/package.sh'
+[4.903s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson2/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/package.bash'
+[4.904s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson2/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/package.zsh'
+[4.905s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jetson2/ws_sensor_combined/install/px4_ros_com/share/colcon-core/packages/px4_ros_com)
+[5.731s] Level 1:colcon.colcon_core.shell:create_environment_hook('offboard', 'pythonpath_develop')
+[5.732s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson2/ws_sensor_combined/build/offboard/share/offboard/hook/pythonpath_develop.ps1'
+[5.733s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jetson2/ws_sensor_combined/build/offboard' returned '0': CMAKE_PREFIX_PATH=/home/jetson2/ws_sensor_combined/install/px4_msgs:/home/jetson2/ws_sensor_combined/install/px4_ros_com LD_LIBRARY_PATH=/home/jetson2/ws_sensor_combined/install/px4_msgs/lib:/home/jetson2/ws_sensor_combined/install/px4_ros_com/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/jetson2/ws_sensor_combined/build/offboard/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson2/ws_sensor_combined/install/offboard/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jetson2/ws_sensor_combined/build/offboard/build --no-deps symlink_data
+[5.735s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson2/ws_sensor_combined/build/offboard/share/offboard/hook/pythonpath_develop.dsv'
+[5.736s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson2/ws_sensor_combined/build/offboard/share/offboard/hook/pythonpath_develop.sh'
+[5.738s] Level 1:colcon.colcon_core.environment:checking '/home/jetson2/ws_sensor_combined/install/offboard' for CMake module files
+[5.740s] Level 1:colcon.colcon_core.environment:checking '/home/jetson2/ws_sensor_combined/install/offboard' for CMake config files
+[5.742s] Level 1:colcon.colcon_core.environment:checking '/home/jetson2/ws_sensor_combined/install/offboard/lib'
+[5.742s] Level 1:colcon.colcon_core.environment:checking '/home/jetson2/ws_sensor_combined/install/offboard/bin'
+[5.742s] Level 1:colcon.colcon_core.environment:checking '/home/jetson2/ws_sensor_combined/install/offboard/lib/pkgconfig/offboard.pc'
+[5.743s] Level 1:colcon.colcon_core.environment:checking '/home/jetson2/ws_sensor_combined/install/offboard/lib/python3.10/site-packages'
+[5.743s] Level 1:colcon.colcon_core.shell:create_environment_hook('offboard', 'pythonpath')
+[5.744s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson2/ws_sensor_combined/install/offboard/share/offboard/hook/pythonpath.ps1'
+[5.746s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson2/ws_sensor_combined/install/offboard/share/offboard/hook/pythonpath.dsv'
+[5.747s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson2/ws_sensor_combined/install/offboard/share/offboard/hook/pythonpath.sh'
+[5.749s] Level 1:colcon.colcon_core.environment:checking '/home/jetson2/ws_sensor_combined/install/offboard/bin'
+[5.749s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(offboard)
+[5.750s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson2/ws_sensor_combined/install/offboard/share/offboard/package.ps1'
+[5.752s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jetson2/ws_sensor_combined/install/offboard/share/offboard/package.dsv'
+[5.754s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson2/ws_sensor_combined/install/offboard/share/offboard/package.sh'
+[5.756s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson2/ws_sensor_combined/install/offboard/share/offboard/package.bash'
+[5.757s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson2/ws_sensor_combined/install/offboard/share/offboard/package.zsh'
+[5.758s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jetson2/ws_sensor_combined/install/offboard/share/colcon-core/packages/offboard)
+[5.759s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[5.760s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[5.761s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[5.761s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[5.779s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[5.780s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[5.780s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[5.820s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[5.821s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jetson2/ws_sensor_combined/install/local_setup.ps1'
+[5.825s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jetson2/ws_sensor_combined/install/_local_setup_util_ps1.py'
+[5.830s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jetson2/ws_sensor_combined/install/setup.ps1'
+[5.834s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jetson2/ws_sensor_combined/install/local_setup.sh'
+[5.837s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jetson2/ws_sensor_combined/install/_local_setup_util_sh.py'
+[5.839s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jetson2/ws_sensor_combined/install/setup.sh'
+[5.843s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jetson2/ws_sensor_combined/install/local_setup.bash'
+[5.845s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jetson2/ws_sensor_combined/install/setup.bash'
+[5.849s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jetson2/ws_sensor_combined/install/local_setup.zsh'
+[5.850s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jetson2/ws_sensor_combined/install/setup.zsh'
