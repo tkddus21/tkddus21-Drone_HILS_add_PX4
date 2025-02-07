@@ -23,7 +23,7 @@ function(ament_cmake_symlink_install_directory cmake_current_source_dir)
 
   # make destination absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/jetson2/ws_sensor_combined/install/px4_ros_com/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/krristudent/HITL/sensor/install/px4_ros_com/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -123,7 +123,7 @@ function(ament_cmake_symlink_install_files cmake_current_source_dir)
 
   # make destination an absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/jetson2/ws_sensor_combined/install/px4_ros_com/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/krristudent/HITL/sensor/install/px4_ros_com/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -181,7 +181,7 @@ function(ament_cmake_symlink_install_programs cmake_current_source_dir)
 
   # make destination an absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/jetson2/ws_sensor_combined/install/px4_ros_com/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/krristudent/HITL/sensor/install/px4_ros_com/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -251,7 +251,7 @@ function(ament_cmake_symlink_install_targets)
 
     # make destination an absolute path and ensure that it exists
     if(NOT IS_ABSOLUTE "${destination}")
-      set(destination "/home/jetson2/ws_sensor_combined/install/px4_ros_com/${destination}")
+      set(destination "/home/krristudent/HITL/sensor/install/px4_ros_com/${destination}")
     endif()
     if(NOT EXISTS "${destination}")
       file(MAKE_DIRECTORY "${destination}")
@@ -311,103 +311,100 @@ message(STATUS "Execute custom install script")
 # begin of custom install code
 
 # install("TARGETS" "sensor_combined_listener" "DESTINATION" "lib/px4_ros_com")
-include("/home/jetson2/ws_sensor_combined/build/px4_ros_com/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+include("/home/krristudent/HITL/sensor/build/px4_ros_com/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
 # install("TARGETS" "vehicle_gps_position_listener" "DESTINATION" "lib/px4_ros_com")
-include("/home/jetson2/ws_sensor_combined/build/px4_ros_com/ament_cmake_symlink_install_targets_1_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+include("/home/krristudent/HITL/sensor/build/px4_ros_com/ament_cmake_symlink_install_targets_1_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
 # install("TARGETS" "debug_vect_advertiser" "DESTINATION" "lib/px4_ros_com")
-include("/home/jetson2/ws_sensor_combined/build/px4_ros_com/ament_cmake_symlink_install_targets_2_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+include("/home/krristudent/HITL/sensor/build/px4_ros_com/ament_cmake_symlink_install_targets_2_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
 # install("TARGETS" "offboard_control" "DESTINATION" "lib/px4_ros_com")
-include("/home/jetson2/ws_sensor_combined/build/px4_ros_com/ament_cmake_symlink_install_targets_3_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+include("/home/krristudent/HITL/sensor/build/px4_ros_com/ament_cmake_symlink_install_targets_3_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
 # install("TARGETS" "offboard_control_srv" "DESTINATION" "lib/px4_ros_com")
-include("/home/jetson2/ws_sensor_combined/build/px4_ros_com/ament_cmake_symlink_install_targets_4_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+include("/home/krristudent/HITL/sensor/build/px4_ros_com/ament_cmake_symlink_install_targets_4_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
 # install(FILES "/opt/ros/humble/lib/python3.10/site-packages/ament_package/template/environment_hook/library_path.sh" "DESTINATION" "share/px4_ros_com/environment")
-ament_cmake_symlink_install_files("/home/jetson2/ws_sensor_combined/src/px4_ros_com" FILES "/opt/ros/humble/lib/python3.10/site-packages/ament_package/template/environment_hook/library_path.sh" "DESTINATION" "share/px4_ros_com/environment")
+ament_cmake_symlink_install_files("/home/krristudent/HITL/sensor/src/px4_ros_com" FILES "/opt/ros/humble/lib/python3.10/site-packages/ament_package/template/environment_hook/library_path.sh" "DESTINATION" "share/px4_ros_com/environment")
 
-# install(FILES "/home/jetson2/ws_sensor_combined/build/px4_ros_com/ament_cmake_environment_hooks/library_path.dsv" "DESTINATION" "share/px4_ros_com/environment")
-ament_cmake_symlink_install_files("/home/jetson2/ws_sensor_combined/src/px4_ros_com" FILES "/home/jetson2/ws_sensor_combined/build/px4_ros_com/ament_cmake_environment_hooks/library_path.dsv" "DESTINATION" "share/px4_ros_com/environment")
+# install(FILES "/home/krristudent/HITL/sensor/build/px4_ros_com/ament_cmake_environment_hooks/library_path.dsv" "DESTINATION" "share/px4_ros_com/environment")
+ament_cmake_symlink_install_files("/home/krristudent/HITL/sensor/src/px4_ros_com" FILES "/home/krristudent/HITL/sensor/build/px4_ros_com/ament_cmake_environment_hooks/library_path.dsv" "DESTINATION" "share/px4_ros_com/environment")
 
 # install(DIRECTORY "include/px4_ros_com/" "DESTINATION" "include/px4_ros_com")
-ament_cmake_symlink_install_directory("/home/jetson2/ws_sensor_combined/src/px4_ros_com" DIRECTORY "include/px4_ros_com/" "DESTINATION" "include/px4_ros_com")
+ament_cmake_symlink_install_directory("/home/krristudent/HITL/sensor/src/px4_ros_com" DIRECTORY "include/px4_ros_com/" "DESTINATION" "include/px4_ros_com")
 
 # install(DIRECTORY "launch" "DESTINATION" "share/px4_ros_com/")
-ament_cmake_symlink_install_directory("/home/jetson2/ws_sensor_combined/src/px4_ros_com" DIRECTORY "launch" "DESTINATION" "share/px4_ros_com/")
+ament_cmake_symlink_install_directory("/home/krristudent/HITL/sensor/src/px4_ros_com" DIRECTORY "launch" "DESTINATION" "share/px4_ros_com/")
 
 # install(DIRECTORY "test" "DESTINATION" "share/px4_ros_com/")
-ament_cmake_symlink_install_directory("/home/jetson2/ws_sensor_combined/src/px4_ros_com" DIRECTORY "test" "DESTINATION" "share/px4_ros_com/")
+ament_cmake_symlink_install_directory("/home/krristudent/HITL/sensor/src/px4_ros_com" DIRECTORY "test" "DESTINATION" "share/px4_ros_com/")
 
-# install(FILES "/home/jetson2/ws_sensor_combined/build/px4_ros_com/ament_cmake_environment_hooks/pythonpath.sh" "DESTINATION" "share/px4_ros_com/environment")
-ament_cmake_symlink_install_files("/home/jetson2/ws_sensor_combined/src/px4_ros_com" FILES "/home/jetson2/ws_sensor_combined/build/px4_ros_com/ament_cmake_environment_hooks/pythonpath.sh" "DESTINATION" "share/px4_ros_com/environment")
+# install(FILES "/home/krristudent/HITL/sensor/build/px4_ros_com/ament_cmake_environment_hooks/pythonpath.sh" "DESTINATION" "share/px4_ros_com/environment")
+ament_cmake_symlink_install_files("/home/krristudent/HITL/sensor/src/px4_ros_com" FILES "/home/krristudent/HITL/sensor/build/px4_ros_com/ament_cmake_environment_hooks/pythonpath.sh" "DESTINATION" "share/px4_ros_com/environment")
 
-# install(FILES "/home/jetson2/ws_sensor_combined/build/px4_ros_com/ament_cmake_environment_hooks/pythonpath.dsv" "DESTINATION" "share/px4_ros_com/environment")
-ament_cmake_symlink_install_files("/home/jetson2/ws_sensor_combined/src/px4_ros_com" FILES "/home/jetson2/ws_sensor_combined/build/px4_ros_com/ament_cmake_environment_hooks/pythonpath.dsv" "DESTINATION" "share/px4_ros_com/environment")
+# install(FILES "/home/krristudent/HITL/sensor/build/px4_ros_com/ament_cmake_environment_hooks/pythonpath.dsv" "DESTINATION" "share/px4_ros_com/environment")
+ament_cmake_symlink_install_files("/home/krristudent/HITL/sensor/src/px4_ros_com" FILES "/home/krristudent/HITL/sensor/build/px4_ros_com/ament_cmake_environment_hooks/pythonpath.dsv" "DESTINATION" "share/px4_ros_com/environment")
 
-# install(DIRECTORY "/home/jetson2/ws_sensor_combined/build/px4_ros_com/ament_cmake_python/px4_ros_com/px4_ros_com.egg-info/" "DESTINATION" "local/lib/python3.10/dist-packages/px4_ros_com-0.1.0-py3.10.egg-info")
-ament_cmake_symlink_install_directory("/home/jetson2/ws_sensor_combined/src/px4_ros_com" DIRECTORY "/home/jetson2/ws_sensor_combined/build/px4_ros_com/ament_cmake_python/px4_ros_com/px4_ros_com.egg-info/" "DESTINATION" "local/lib/python3.10/dist-packages/px4_ros_com-0.1.0-py3.10.egg-info")
+# install(DIRECTORY "/home/krristudent/HITL/sensor/build/px4_ros_com/ament_cmake_python/px4_ros_com/px4_ros_com.egg-info/" "DESTINATION" "local/lib/python3.10/dist-packages/px4_ros_com-0.1.0-py3.10.egg-info")
+ament_cmake_symlink_install_directory("/home/krristudent/HITL/sensor/src/px4_ros_com" DIRECTORY "/home/krristudent/HITL/sensor/build/px4_ros_com/ament_cmake_python/px4_ros_com/px4_ros_com.egg-info/" "DESTINATION" "local/lib/python3.10/dist-packages/px4_ros_com-0.1.0-py3.10.egg-info")
 
-# install(DIRECTORY "/home/jetson2/ws_sensor_combined/src/px4_ros_com/px4_ros_com/" "DESTINATION" "local/lib/python3.10/dist-packages/px4_ros_com" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
-ament_cmake_symlink_install_directory("/home/jetson2/ws_sensor_combined/src/px4_ros_com" DIRECTORY "/home/jetson2/ws_sensor_combined/src/px4_ros_com/px4_ros_com/" "DESTINATION" "local/lib/python3.10/dist-packages/px4_ros_com" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
+# install(DIRECTORY "/home/krristudent/HITL/sensor/src/px4_ros_com/px4_ros_com/" "DESTINATION" "local/lib/python3.10/dist-packages/px4_ros_com" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
+ament_cmake_symlink_install_directory("/home/krristudent/HITL/sensor/src/px4_ros_com" DIRECTORY "/home/krristudent/HITL/sensor/src/px4_ros_com/px4_ros_com/" "DESTINATION" "local/lib/python3.10/dist-packages/px4_ros_com" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
 
 # install(PROGRAMS "src/examples/offboard_py/offboard_control.py" "DESTINATION" "lib/px4_ros_com")
-ament_cmake_symlink_install_programs("/home/jetson2/ws_sensor_combined/src/px4_ros_com" PROGRAMS "src/examples/offboard_py/offboard_control.py" "DESTINATION" "lib/px4_ros_com")
+ament_cmake_symlink_install_programs("/home/krristudent/HITL/sensor/src/px4_ros_com" PROGRAMS "src/examples/offboard_py/offboard_control.py" "DESTINATION" "lib/px4_ros_com")
 
-# install(PROGRAMS "src/examples/offboard_py/GM_offboard_control.py" "DESTINATION" "lib/px4_ros_com")
-ament_cmake_symlink_install_programs("/home/jetson2/ws_sensor_combined/src/px4_ros_com" PROGRAMS "src/examples/offboard_py/GM_offboard_control.py" "DESTINATION" "lib/px4_ros_com")
+# install(FILES "/home/krristudent/HITL/sensor/build/px4_ros_com/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/px4_ros_com" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+ament_cmake_symlink_install_files("/home/krristudent/HITL/sensor/src/px4_ros_com" FILES "/home/krristudent/HITL/sensor/build/px4_ros_com/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/px4_ros_com" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 
-# install(FILES "/home/jetson2/ws_sensor_combined/build/px4_ros_com/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/px4_ros_com" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
-ament_cmake_symlink_install_files("/home/jetson2/ws_sensor_combined/src/px4_ros_com" FILES "/home/jetson2/ws_sensor_combined/build/px4_ros_com/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/px4_ros_com" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
-
-# install(FILES "/home/jetson2/ws_sensor_combined/build/px4_ros_com/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/px4_ros_com" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
-ament_cmake_symlink_install_files("/home/jetson2/ws_sensor_combined/src/px4_ros_com" FILES "/home/jetson2/ws_sensor_combined/build/px4_ros_com/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/px4_ros_com" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+# install(FILES "/home/krristudent/HITL/sensor/build/px4_ros_com/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/px4_ros_com" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+ament_cmake_symlink_install_files("/home/krristudent/HITL/sensor/src/px4_ros_com" FILES "/home/krristudent/HITL/sensor/build/px4_ros_com/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/px4_ros_com" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
 
 # install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/px4_ros_com/environment")
-ament_cmake_symlink_install_files("/home/jetson2/ws_sensor_combined/src/px4_ros_com" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/px4_ros_com/environment")
+ament_cmake_symlink_install_files("/home/krristudent/HITL/sensor/src/px4_ros_com" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/px4_ros_com/environment")
 
-# install(FILES "/home/jetson2/ws_sensor_combined/build/px4_ros_com/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/px4_ros_com/environment")
-ament_cmake_symlink_install_files("/home/jetson2/ws_sensor_combined/src/px4_ros_com" FILES "/home/jetson2/ws_sensor_combined/build/px4_ros_com/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/px4_ros_com/environment")
+# install(FILES "/home/krristudent/HITL/sensor/build/px4_ros_com/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/px4_ros_com/environment")
+ament_cmake_symlink_install_files("/home/krristudent/HITL/sensor/src/px4_ros_com" FILES "/home/krristudent/HITL/sensor/build/px4_ros_com/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/px4_ros_com/environment")
 
 # install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/px4_ros_com/environment")
-ament_cmake_symlink_install_files("/home/jetson2/ws_sensor_combined/src/px4_ros_com" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/px4_ros_com/environment")
+ament_cmake_symlink_install_files("/home/krristudent/HITL/sensor/src/px4_ros_com" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/px4_ros_com/environment")
 
-# install(FILES "/home/jetson2/ws_sensor_combined/build/px4_ros_com/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/px4_ros_com/environment")
-ament_cmake_symlink_install_files("/home/jetson2/ws_sensor_combined/src/px4_ros_com" FILES "/home/jetson2/ws_sensor_combined/build/px4_ros_com/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/px4_ros_com/environment")
+# install(FILES "/home/krristudent/HITL/sensor/build/px4_ros_com/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/px4_ros_com/environment")
+ament_cmake_symlink_install_files("/home/krristudent/HITL/sensor/src/px4_ros_com" FILES "/home/krristudent/HITL/sensor/build/px4_ros_com/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/px4_ros_com/environment")
 
-# install(FILES "/home/jetson2/ws_sensor_combined/build/px4_ros_com/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/px4_ros_com")
-ament_cmake_symlink_install_files("/home/jetson2/ws_sensor_combined/src/px4_ros_com" FILES "/home/jetson2/ws_sensor_combined/build/px4_ros_com/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/px4_ros_com")
+# install(FILES "/home/krristudent/HITL/sensor/build/px4_ros_com/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/px4_ros_com")
+ament_cmake_symlink_install_files("/home/krristudent/HITL/sensor/src/px4_ros_com" FILES "/home/krristudent/HITL/sensor/build/px4_ros_com/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/px4_ros_com")
 
-# install(FILES "/home/jetson2/ws_sensor_combined/build/px4_ros_com/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/px4_ros_com")
-ament_cmake_symlink_install_files("/home/jetson2/ws_sensor_combined/src/px4_ros_com" FILES "/home/jetson2/ws_sensor_combined/build/px4_ros_com/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/px4_ros_com")
+# install(FILES "/home/krristudent/HITL/sensor/build/px4_ros_com/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/px4_ros_com")
+ament_cmake_symlink_install_files("/home/krristudent/HITL/sensor/src/px4_ros_com" FILES "/home/krristudent/HITL/sensor/build/px4_ros_com/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/px4_ros_com")
 
-# install(FILES "/home/jetson2/ws_sensor_combined/build/px4_ros_com/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/px4_ros_com")
-ament_cmake_symlink_install_files("/home/jetson2/ws_sensor_combined/src/px4_ros_com" FILES "/home/jetson2/ws_sensor_combined/build/px4_ros_com/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/px4_ros_com")
+# install(FILES "/home/krristudent/HITL/sensor/build/px4_ros_com/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/px4_ros_com")
+ament_cmake_symlink_install_files("/home/krristudent/HITL/sensor/src/px4_ros_com" FILES "/home/krristudent/HITL/sensor/build/px4_ros_com/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/px4_ros_com")
 
-# install(FILES "/home/jetson2/ws_sensor_combined/build/px4_ros_com/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/px4_ros_com")
-ament_cmake_symlink_install_files("/home/jetson2/ws_sensor_combined/src/px4_ros_com" FILES "/home/jetson2/ws_sensor_combined/build/px4_ros_com/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/px4_ros_com")
+# install(FILES "/home/krristudent/HITL/sensor/build/px4_ros_com/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/px4_ros_com")
+ament_cmake_symlink_install_files("/home/krristudent/HITL/sensor/src/px4_ros_com" FILES "/home/krristudent/HITL/sensor/build/px4_ros_com/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/px4_ros_com")
 
-# install(FILES "/home/jetson2/ws_sensor_combined/build/px4_ros_com/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/px4_ros_com")
-ament_cmake_symlink_install_files("/home/jetson2/ws_sensor_combined/src/px4_ros_com" FILES "/home/jetson2/ws_sensor_combined/build/px4_ros_com/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/px4_ros_com")
+# install(FILES "/home/krristudent/HITL/sensor/build/px4_ros_com/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/px4_ros_com")
+ament_cmake_symlink_install_files("/home/krristudent/HITL/sensor/src/px4_ros_com" FILES "/home/krristudent/HITL/sensor/build/px4_ros_com/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/px4_ros_com")
 
-# install(FILES "/home/jetson2/ws_sensor_combined/build/px4_ros_com/ament_cmake_index/share/ament_index/resource_index/packages/px4_ros_com" "DESTINATION" "share/ament_index/resource_index/packages")
-ament_cmake_symlink_install_files("/home/jetson2/ws_sensor_combined/src/px4_ros_com" FILES "/home/jetson2/ws_sensor_combined/build/px4_ros_com/ament_cmake_index/share/ament_index/resource_index/packages/px4_ros_com" "DESTINATION" "share/ament_index/resource_index/packages")
+# install(FILES "/home/krristudent/HITL/sensor/build/px4_ros_com/ament_cmake_index/share/ament_index/resource_index/packages/px4_ros_com" "DESTINATION" "share/ament_index/resource_index/packages")
+ament_cmake_symlink_install_files("/home/krristudent/HITL/sensor/src/px4_ros_com" FILES "/home/krristudent/HITL/sensor/build/px4_ros_com/ament_cmake_index/share/ament_index/resource_index/packages/px4_ros_com" "DESTINATION" "share/ament_index/resource_index/packages")
 
-# install(FILES "/home/jetson2/ws_sensor_combined/build/px4_ros_com/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/px4_ros_com/cmake")
-ament_cmake_symlink_install_files("/home/jetson2/ws_sensor_combined/src/px4_ros_com" FILES "/home/jetson2/ws_sensor_combined/build/px4_ros_com/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/px4_ros_com/cmake")
+# install(FILES "/home/krristudent/HITL/sensor/build/px4_ros_com/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/px4_ros_com/cmake")
+ament_cmake_symlink_install_files("/home/krristudent/HITL/sensor/src/px4_ros_com" FILES "/home/krristudent/HITL/sensor/build/px4_ros_com/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/px4_ros_com/cmake")
 
-# install(FILES "/home/jetson2/ws_sensor_combined/build/px4_ros_com/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake" "DESTINATION" "share/px4_ros_com/cmake")
-ament_cmake_symlink_install_files("/home/jetson2/ws_sensor_combined/src/px4_ros_com" FILES "/home/jetson2/ws_sensor_combined/build/px4_ros_com/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake" "DESTINATION" "share/px4_ros_com/cmake")
+# install(FILES "/home/krristudent/HITL/sensor/build/px4_ros_com/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake" "DESTINATION" "share/px4_ros_com/cmake")
+ament_cmake_symlink_install_files("/home/krristudent/HITL/sensor/src/px4_ros_com" FILES "/home/krristudent/HITL/sensor/build/px4_ros_com/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake" "DESTINATION" "share/px4_ros_com/cmake")
 
-# install(FILES "/home/jetson2/ws_sensor_combined/build/px4_ros_com/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake" "DESTINATION" "share/px4_ros_com/cmake")
-ament_cmake_symlink_install_files("/home/jetson2/ws_sensor_combined/src/px4_ros_com" FILES "/home/jetson2/ws_sensor_combined/build/px4_ros_com/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake" "DESTINATION" "share/px4_ros_com/cmake")
+# install(FILES "/home/krristudent/HITL/sensor/build/px4_ros_com/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake" "DESTINATION" "share/px4_ros_com/cmake")
+ament_cmake_symlink_install_files("/home/krristudent/HITL/sensor/src/px4_ros_com" FILES "/home/krristudent/HITL/sensor/build/px4_ros_com/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake" "DESTINATION" "share/px4_ros_com/cmake")
 
-# install(FILES "/home/jetson2/ws_sensor_combined/build/px4_ros_com/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake" "DESTINATION" "share/px4_ros_com/cmake")
-ament_cmake_symlink_install_files("/home/jetson2/ws_sensor_combined/src/px4_ros_com" FILES "/home/jetson2/ws_sensor_combined/build/px4_ros_com/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake" "DESTINATION" "share/px4_ros_com/cmake")
+# install(FILES "/home/krristudent/HITL/sensor/build/px4_ros_com/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake" "DESTINATION" "share/px4_ros_com/cmake")
+ament_cmake_symlink_install_files("/home/krristudent/HITL/sensor/src/px4_ros_com" FILES "/home/krristudent/HITL/sensor/build/px4_ros_com/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake" "DESTINATION" "share/px4_ros_com/cmake")
 
-# install(FILES "/home/jetson2/ws_sensor_combined/build/px4_ros_com/ament_cmake_core/px4_ros_comConfig.cmake" "/home/jetson2/ws_sensor_combined/build/px4_ros_com/ament_cmake_core/px4_ros_comConfig-version.cmake" "DESTINATION" "share/px4_ros_com/cmake")
-ament_cmake_symlink_install_files("/home/jetson2/ws_sensor_combined/src/px4_ros_com" FILES "/home/jetson2/ws_sensor_combined/build/px4_ros_com/ament_cmake_core/px4_ros_comConfig.cmake" "/home/jetson2/ws_sensor_combined/build/px4_ros_com/ament_cmake_core/px4_ros_comConfig-version.cmake" "DESTINATION" "share/px4_ros_com/cmake")
+# install(FILES "/home/krristudent/HITL/sensor/build/px4_ros_com/ament_cmake_core/px4_ros_comConfig.cmake" "/home/krristudent/HITL/sensor/build/px4_ros_com/ament_cmake_core/px4_ros_comConfig-version.cmake" "DESTINATION" "share/px4_ros_com/cmake")
+ament_cmake_symlink_install_files("/home/krristudent/HITL/sensor/src/px4_ros_com" FILES "/home/krristudent/HITL/sensor/build/px4_ros_com/ament_cmake_core/px4_ros_comConfig.cmake" "/home/krristudent/HITL/sensor/build/px4_ros_com/ament_cmake_core/px4_ros_comConfig-version.cmake" "DESTINATION" "share/px4_ros_com/cmake")
 
-# install(FILES "/home/jetson2/ws_sensor_combined/src/px4_ros_com/package.xml" "DESTINATION" "share/px4_ros_com")
-ament_cmake_symlink_install_files("/home/jetson2/ws_sensor_combined/src/px4_ros_com" FILES "/home/jetson2/ws_sensor_combined/src/px4_ros_com/package.xml" "DESTINATION" "share/px4_ros_com")
+# install(FILES "/home/krristudent/HITL/sensor/src/px4_ros_com/package.xml" "DESTINATION" "share/px4_ros_com")
+ament_cmake_symlink_install_files("/home/krristudent/HITL/sensor/src/px4_ros_com" FILES "/home/krristudent/HITL/sensor/src/px4_ros_com/package.xml" "DESTINATION" "share/px4_ros_com")

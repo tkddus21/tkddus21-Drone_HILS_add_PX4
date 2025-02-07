@@ -1,1 +1,0 @@
-/home/jetson2/ws_sensor_combined/src/px4_ros_com/px4_ros_com/GM_offboard_control.py

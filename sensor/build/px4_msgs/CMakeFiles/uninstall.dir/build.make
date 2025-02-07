@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jetson2/ws_sensor_combined/src/px4_msgs
+CMAKE_SOURCE_DIR = /home/krristudent/HITL/sensor/src/px4_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jetson2/ws_sensor_combined/build/px4_msgs
+CMAKE_BINARY_DIR = /home/krristudent/HITL/sensor/build/px4_msgs
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/jetson2/ws_sensor_combined/build/px4_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jetson2/ws_sensor_combined/src/px4_msgs /home/jetson2/ws_sensor_combined/src/px4_msgs /home/jetson2/ws_sensor_combined/build/px4_msgs /home/jetson2/ws_sensor_combined/build/px4_msgs /home/jetson2/ws_sensor_combined/build/px4_msgs/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/krristudent/HITL/sensor/build/px4_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/krristudent/HITL/sensor/src/px4_msgs /home/krristudent/HITL/sensor/src/px4_msgs /home/krristudent/HITL/sensor/build/px4_msgs /home/krristudent/HITL/sensor/build/px4_msgs /home/krristudent/HITL/sensor/build/px4_msgs/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

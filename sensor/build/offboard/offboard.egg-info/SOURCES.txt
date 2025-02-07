@@ -1,13 +1,6 @@
 package.xml
 setup.cfg
 setup.py
-../../build/offboard/offboard.egg-info/PKG-INFO
-../../build/offboard/offboard.egg-info/SOURCES.txt
-../../build/offboard/offboard.egg-info/dependency_links.txt
-../../build/offboard/offboard.egg-info/entry_points.txt
-../../build/offboard/offboard.egg-info/requires.txt
-../../build/offboard/offboard.egg-info/top_level.txt
-../../build/offboard/offboard.egg-info/zip-safe
 offboard/__init__.py
 offboard/offboard_mode.py
 offboard.egg-info/PKG-INFO

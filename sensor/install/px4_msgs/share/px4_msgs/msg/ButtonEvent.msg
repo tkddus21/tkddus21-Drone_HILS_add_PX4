@@ -1,1 +1,1 @@
-/home/jetson2/ws_sensor_combined/src/px4_msgs/msg/ButtonEvent.msg
+/home/krristudent/HITL/sensor/src/px4_msgs/msg/ButtonEvent.msg

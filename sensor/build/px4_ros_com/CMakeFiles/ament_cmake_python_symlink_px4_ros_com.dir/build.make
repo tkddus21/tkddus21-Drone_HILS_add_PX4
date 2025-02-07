@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jetson2/ws_sensor_combined/src/px4_ros_com
+CMAKE_SOURCE_DIR = /home/krristudent/HITL/sensor/src/px4_ros_com
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jetson2/ws_sensor_combined/build/px4_ros_com
+CMAKE_BINARY_DIR = /home/krristudent/HITL/sensor/build/px4_ros_com
 
 # Utility rule file for ament_cmake_python_symlink_px4_ros_com.
 
@@ -67,7 +67,7 @@ include CMakeFiles/ament_cmake_python_symlink_px4_ros_com.dir/compiler_depend.ma
 include CMakeFiles/ament_cmake_python_symlink_px4_ros_com.dir/progress.make
 
 CMakeFiles/ament_cmake_python_symlink_px4_ros_com:
-	/usr/bin/cmake -E create_symlink /home/jetson2/ws_sensor_combined/src/px4_ros_com/px4_ros_com /home/jetson2/ws_sensor_combined/build/px4_ros_com/ament_cmake_python/px4_ros_com/px4_ros_com
+	/usr/bin/cmake -E create_symlink /home/krristudent/HITL/sensor/src/px4_ros_com/px4_ros_com /home/krristudent/HITL/sensor/build/px4_ros_com/ament_cmake_python/px4_ros_com/px4_ros_com
 
 ament_cmake_python_symlink_px4_ros_com: CMakeFiles/ament_cmake_python_symlink_px4_ros_com
 ament_cmake_python_symlink_px4_ros_com: CMakeFiles/ament_cmake_python_symlink_px4_ros_com.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/ament_cmake_python_symlink_px4_ros_com.dir/clean:
 .PHONY : CMakeFiles/ament_cmake_python_symlink_px4_ros_com.dir/clean
 
 CMakeFiles/ament_cmake_python_symlink_px4_ros_com.dir/depend:
-	cd /home/jetson2/ws_sensor_combined/build/px4_ros_com && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jetson2/ws_sensor_combined/src/px4_ros_com /home/jetson2/ws_sensor_combined/src/px4_ros_com /home/jetson2/ws_sensor_combined/build/px4_ros_com /home/jetson2/ws_sensor_combined/build/px4_ros_com /home/jetson2/ws_sensor_combined/build/px4_ros_com/CMakeFiles/ament_cmake_python_symlink_px4_ros_com.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/krristudent/HITL/sensor/build/px4_ros_com && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/krristudent/HITL/sensor/src/px4_ros_com /home/krristudent/HITL/sensor/src/px4_ros_com /home/krristudent/HITL/sensor/build/px4_ros_com /home/krristudent/HITL/sensor/build/px4_ros_com /home/krristudent/HITL/sensor/build/px4_ros_com/CMakeFiles/ament_cmake_python_symlink_px4_ros_com.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ament_cmake_python_symlink_px4_ros_com.dir/depend
 

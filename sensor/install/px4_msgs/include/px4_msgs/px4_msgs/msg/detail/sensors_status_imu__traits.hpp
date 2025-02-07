@@ -1,1 +1,1 @@
-/home/jetson2/ws_sensor_combined/build/px4_msgs/rosidl_generator_cpp/px4_msgs/msg/detail/sensors_status_imu__traits.hpp
+/home/krristudent/HITL/sensor/build/px4_msgs/rosidl_generator_cpp/px4_msgs/msg/detail/sensors_status_imu__traits.hpp

@@ -1,1 +1,1 @@
-/home/jetson2/ws_sensor_combined/build/px4_msgs/ament_cmake_core/px4_msgsConfig-version.cmake
+/home/krristudent/HITL/sensor/build/px4_msgs/ament_cmake_core/px4_msgsConfig-version.cmake

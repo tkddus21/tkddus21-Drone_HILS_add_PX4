@@ -1,1 +1,1 @@
-/home/jetson2/ws_sensor_combined/src/px4_ros_com/launch/sensor_combined_listener.launch.py
+/home/krristudent/HITL/sensor/src/px4_ros_com/launch/sensor_combined_listener.launch.py

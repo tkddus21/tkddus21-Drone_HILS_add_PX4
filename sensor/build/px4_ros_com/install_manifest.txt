@@ -1,3 +1,3 @@
-/home/jetson2/ws_sensor_combined/install/px4_ros_com/lib/libframe_transforms.so
-/home/jetson2/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/cmake/export_frame_transformsExport.cmake
-/home/jetson2/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/cmake/export_frame_transformsExport-noconfig.cmake
+/home/krristudent/HITL/sensor/install/px4_ros_com/lib/libframe_transforms.so
+/home/krristudent/HITL/sensor/install/px4_ros_com/share/px4_ros_com/cmake/export_frame_transformsExport.cmake
+/home/krristudent/HITL/sensor/install/px4_ros_com/share/px4_ros_com/cmake/export_frame_transformsExport-noconfig.cmake

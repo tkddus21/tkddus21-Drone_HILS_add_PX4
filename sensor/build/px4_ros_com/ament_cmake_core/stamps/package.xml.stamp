@@ -19,7 +19,7 @@
 
   <depend>builtin_interfaces</depend>
   <depend>rclcpp</depend>
-  
+
   <depend>px4_msgs</depend>
   <depend>geometry_msgs</depend>
   <depend>sensor_msgs</depend>
@@ -30,8 +30,7 @@
 
   <exec_depend>rosidl_default_runtime</exec_depend>
   <exec_depend>ros2launch</exec_depend>
-  <exec_depend>rclpy</exec_depend>
-  
+
   <buildtool_export_depend>eigen3_cmake_module</buildtool_export_depend>
   <build_export_depend>eigen</build_export_depend>
 

@@ -1,0 +1,24 @@
+[0.756s] Invoking command in '/home/krristudent/HITL/sensor/build/offboard': PYTHONPATH=/home/krristudent/HITL/sensor/build/offboard/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/krristudent/HITL/sensor/install/offboard/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/krristudent/HITL/sensor/build/offboard/build --no-deps symlink_data
+[1.087s] running develop
+[1.426s] running egg_info
+[1.426s] creating offboard.egg-info
+[1.426s] writing offboard.egg-info/PKG-INFO
+[1.426s] writing dependency_links to offboard.egg-info/dependency_links.txt
+[1.426s] writing entry points to offboard.egg-info/entry_points.txt
+[1.427s] writing requirements to offboard.egg-info/requires.txt
+[1.427s] writing top-level names to offboard.egg-info/top_level.txt
+[1.427s] writing manifest file 'offboard.egg-info/SOURCES.txt'
+[1.429s] reading manifest file 'offboard.egg-info/SOURCES.txt'
+[1.429s] writing manifest file 'offboard.egg-info/SOURCES.txt'
+[1.430s] running build_ext
+[1.431s] Creating /home/krristudent/HITL/sensor/install/offboard/lib/python3.10/site-packages/offboard.egg-link (link to .)
+[1.432s] Installing offboard_mode script to /home/krristudent/HITL/sensor/install/offboard/lib/offboard
+[1.432s] 
+[1.432s] Installed /home/krristudent/HITL/sensor/build/offboard
+[1.432s] running symlink_data
+[1.432s] creating /home/krristudent/HITL/sensor/install/offboard/share/ament_index
+[1.432s] creating /home/krristudent/HITL/sensor/install/offboard/share/ament_index/resource_index
+[1.432s] creating /home/krristudent/HITL/sensor/install/offboard/share/ament_index/resource_index/packages
+[1.432s] symbolically linking /home/krristudent/HITL/sensor/build/offboard/resource/offboard -> /home/krristudent/HITL/sensor/install/offboard/share/ament_index/resource_index/packages
+[1.433s] symbolically linking /home/krristudent/HITL/sensor/build/offboard/package.xml -> /home/krristudent/HITL/sensor/install/offboard/share/offboard
+[1.463s] Invoked command in '/home/krristudent/HITL/sensor/build/offboard' returned '0': PYTHONPATH=/home/krristudent/HITL/sensor/build/offboard/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/krristudent/HITL/sensor/install/offboard/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/krristudent/HITL/sensor/build/offboard/build --no-deps symlink_data

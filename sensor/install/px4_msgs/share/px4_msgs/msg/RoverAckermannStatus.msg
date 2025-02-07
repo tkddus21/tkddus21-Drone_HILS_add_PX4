@@ -1,1 +1,1 @@
-/home/jetson2/ws_sensor_combined/src/px4_msgs/msg/RoverAckermannStatus.msg
+/home/krristudent/HITL/sensor/src/px4_msgs/msg/RoverAckermannStatus.msg

@@ -1,8 +1,8 @@
-# Install script for directory: /home/jetson2/ws_sensor_combined/build/px4_msgs/px4_msgs__py
+# Install script for directory: /home/krristudent/HITL/sensor/build/px4_msgs/px4_msgs__py
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/jetson2/ws_sensor_combined/install/px4_msgs")
+  set(CMAKE_INSTALL_PREFIX "/home/krristudent/HITL/sensor/install/px4_msgs")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

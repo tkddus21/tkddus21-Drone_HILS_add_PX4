@@ -1,1 +1,1 @@
-/home/jetson2/ws_sensor_combined/build/px4_ros_com/ament_cmake_environment_hooks/local_setup.sh
+/home/krristudent/HITL/sensor/build/px4_ros_com/ament_cmake_environment_hooks/local_setup.sh

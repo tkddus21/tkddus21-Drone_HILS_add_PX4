@@ -1,1 +1,1 @@
-/home/jetson2/ws_sensor_combined/src/px4_ros_com/test/pipeline_io_test.py
+/home/krristudent/HITL/sensor/src/px4_ros_com/test/pipeline_io_test.py

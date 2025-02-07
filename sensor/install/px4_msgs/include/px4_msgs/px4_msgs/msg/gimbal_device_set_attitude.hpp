@@ -1,1 +1,1 @@
-/home/jetson2/ws_sensor_combined/build/px4_msgs/rosidl_generator_cpp/px4_msgs/msg/gimbal_device_set_attitude.hpp
+/home/krristudent/HITL/sensor/build/px4_msgs/rosidl_generator_cpp/px4_msgs/msg/gimbal_device_set_attitude.hpp

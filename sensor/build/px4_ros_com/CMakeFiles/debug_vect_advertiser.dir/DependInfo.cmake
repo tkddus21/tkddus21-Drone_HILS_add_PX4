@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/jetson2/ws_sensor_combined/src/px4_ros_com/src/examples/advertisers/debug_vect_advertiser.cpp" "CMakeFiles/debug_vect_advertiser.dir/src/examples/advertisers/debug_vect_advertiser.cpp.o" "gcc" "CMakeFiles/debug_vect_advertiser.dir/src/examples/advertisers/debug_vect_advertiser.cpp.o.d"
+  "/home/krristudent/HITL/sensor/src/px4_ros_com/src/examples/advertisers/debug_vect_advertiser.cpp" "CMakeFiles/debug_vect_advertiser.dir/src/examples/advertisers/debug_vect_advertiser.cpp.o" "gcc" "CMakeFiles/debug_vect_advertiser.dir/src/examples/advertisers/debug_vect_advertiser.cpp.o.d"
   )
 
 # Targets to which this target links.
