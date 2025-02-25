@@ -19,6 +19,12 @@
       <uri>model://sun</uri>
     </include>
 
+    <!-- wall_drone 장애물 추가 -->
+    <include>
+        <uri>model://wall_drone</uri>
+        <pose>5 5 0 0 0 -1</pose>  <!-- 위치 조정 가능 -->
+    </include>
+
     <physics name='default_physics' default='0' type='ode'>
       <gravity>0 0 -9.8066</gravity>
       <ode>
